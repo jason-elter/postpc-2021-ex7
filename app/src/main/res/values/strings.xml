@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Sandwich Stand</string>
+    <string name="new_order">New Order</string>
+    <string name="pickles">Pickles:</string>
+    <string name="name">Name:</string>
+    <string name="hummus">Hummus:</string>
+    <string name="tahini">Tahini:</string>
+    <string name="submit_order">Submit Order</string>
+    <string name="comments">Comments:</string>
+    <string name="edit_order">Edit Order</string>
+    <string name="type_name_here">Type name here</string>
+    <string name="write_comment_here">Write comment here</string>
+    <string name="order_in_progress">Order In Progress</string>
+    <string name="waiting_text">Rachel is working on your order, she will let you know once it is ready :)</string>
+    <string name="order_ready">Order Ready</string>
+    <string name="done_text">Rachel is on campus with your sandwich!</string>
+    <string name="confirm">Confirm</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
 </resources>

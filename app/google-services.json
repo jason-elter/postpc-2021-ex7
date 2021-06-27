@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "844930794321",
+    "project_id": "postpc-2021-ex7-jasonelter",
+    "storage_bucket": "postpc-2021-ex7-jasonelter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844930794321:android:cca5a0709390a6e441c970",
+        "android_client_info": {
+          "package_name": "exercise.android.jasonelter.sandwich_stand"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "844930794321-ots860tnefk7i0i3qehm502st80e2mmc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADqzoot0wjx2RyfpHck_B2c8mqtiGouTU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "844930794321-ots860tnefk7i0i3qehm502st80e2mmc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
