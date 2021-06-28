@@ -4,11 +4,10 @@ import android.app.Application;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
-import com.google.firebase.FirebaseApp;
-
 public class SandwichStandApplication extends Application {
     private static String currentOrderId;
     private static SharedPreferences sp;
+    private static SandwichStandApplication instance;
 
     @Override
     public void onCreate() {
@@ -16,6 +15,8 @@ public class SandwichStandApplication extends Application {
 
         sp = PreferenceManager.getDefaultSharedPreferences(this);
         currentOrderId = sp.getString("order_id", null);
+
+        instance = this;
     }
 
     public static String getCurrentOrderId() {
@@ -32,5 +33,7 @@ public class SandwichStandApplication extends Application {
         sp.edit().putString("order_id", currentOrderId).apply();
     }
 
-
+    public static SandwichStandApplication getInstance() {
+        return instance;
+    }
 }
